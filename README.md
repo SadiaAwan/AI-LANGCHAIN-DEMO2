@@ -86,15 +86,15 @@ This ensures compatibility with MCP tool schemas.
 
 ```mermaid
 flowchart TD
-    A[User] --> B[Agent (LangChain)]
-    B --> C[Tool Filtering]
-    C --> D[Middleware Wrapper]
-    D --> E[MCP Client]
-    E --> F[MCP Server]
-    F --> G[Tool Execution]
-    G --> H[Middleware Output Processing]
-    H --> B
-    B --> I[Response to User]
+A[User] --> B[Agent - LangChain]
+B --> C[Tool Filtering]
+C --> D[Middleware Wrapper]
+D --> E[MCP Client]
+E --> F[MCP Server]
+F --> G[Tool Execution]
+G --> H[Middleware Output Processing]
+H --> B
+B --> I[Response to User]
 ```
 
 ---
